@@ -8,14 +8,14 @@ def solution(board, moves):
                 crain.append(board[j][i])
                 board[j][i] =0
                 if len(crain)>1 and crain[-1] == crain[-2]:
-                    print(crain)
+                    #print(crain)
                     crain.pop(-1)
                     crain.pop(-1)
-                    print(crain)
+                    #print(crain)
                     answer+=2
                 break
                 
-    print(crain)      
+    #print(crain)      
     
             
     return answer
